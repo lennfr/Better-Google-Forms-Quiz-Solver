@@ -189,11 +189,7 @@ function simulateTyping(el, value) {
     if (!host) return null;
 
     const template = btnTemplate();
-    const btn = template || style(document.createElement('div'), {
-      fontFamily: 'Google Sans, Roboto, Arial, sans-serif', fontSize: '14px', fontWeight: '500',
-      display: 'inline-block', padding: '0 24px', lineHeight: '36px', borderRadius: '4px',
-      border: '1px solid #dadce0', userSelect: 'none', cursor: 'pointer', width: 'fit-content', color: theme
-    });
+    const btn = template;
     style(btn, { marginTop: '10px' });
     const label = deepestTextSpan(btn);
     host.appendChild(btn);
