@@ -1,5 +1,5 @@
 # Google Forms Quiz Solver
-This script tries to answer form questions that have client-side validation, such as the ones used in Escape Room assignments 
+This script tries to answer form questions use client-side validation
 
   <img width="580" alt="Before fill" src="https://github.com/user-attachments/assets/90271db8-a31d-4ea9-8faf-538f619a2d6e">
 
